@@ -114,3 +114,14 @@ function addBookToLibrary() {
     // })
     // console.log(newBook);
 }
+
+
+function points(games) {
+    games.map((x) => {
+      x.split(":")
+      console.log(x)
+    })
+  //   return 0
+  }
+
+  points(["2:1", "3:4"])
